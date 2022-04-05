@@ -5,7 +5,6 @@ from PyQt5.QtGui import QPainter,QPen,QColor,QImage
 from PyQt5.QtWidgets import *
 
 from XJ_Tool import *
-from XJ_Rect import *
 from XJ_AbstractCropper import *
 
 class XJ_SampleCropper(QWidget):#样例裁剪器，难以对其中的参数进行设置。投入使用还需进一步的封装
